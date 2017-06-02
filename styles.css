@@ -1,0 +1,10 @@
+body {background-color: lightgray;}
+h2 {background-color: #555;
+    color: #fff;
+    clear: both;}
+fieldset{float: left;}
+.app{
+  border-color: darkblue;
+  border-width: 2px;
+  border-style: solid;
+}

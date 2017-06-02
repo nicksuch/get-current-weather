@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" async src="weather.js" ></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class='app'>
+  <h1>Awesome Weather API App</h1>
+  <div class='zip'>
+    <h2>Zip Code</h2>
+    <input type="number" id=zipInput value='40507'>
+    <button id='weatherButton'>Get Weather</button>
+  </div>
+  
+  <div class='city'>
+    <h2>City</h2>
+    <p id='cityOutput'></p>
+  </div>
+  
+  <div class='temp'>
+    <h2>Temperature</h2>
+    <fieldset class=''>
+      <legend>Kelvin</legend>
+      <label id='temperatureOutputK'></label>
+    </fieldset>
+    <fieldset class=''>
+      <legend>Fahrenheit</legend>
+      <label id='temperatureOutputF'></label>
+    </fieldset>
+    <fieldset class=''>
+      <legend>Celsius</legend>
+      <label id='temperatureOutputC'></label>
+    </fieldset>
+  </div>
+  
+  <div>
+    <h2>Condition</h2>
+    <p id='conditionOutput'></p>
+  </div>
+  
+  <div class='image'>
+    <h2>Season Display</h2>
+    <img alt='' src='' id='weatherImage' width='300'>
+  </div>
+  
+</div>
+
+</body>
+</html>
